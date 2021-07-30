@@ -8,30 +8,30 @@ here
 and here
 """
 
-#variables
+# variables
 x = 12
 y = 15
 z = "hello"
 print(z)
 
-#strings
+# strings
 a = "hello mate "
 b = "Aye sir"
 print(a[0])
 
-#looping through strings
+# looping through strings
 for i in a:
     print(i)
 
-#slicing string
+# slicing string
 print(a[1:5])
 
-#string methods
+# string methods
 print(a.upper())
 print(a.lower())
 print(a + b)
 
-#list
+# list
 
 mylist = ["siddhant", "sam", "robert"]
 print(len(mylist))
@@ -40,3 +40,19 @@ mylist[1] = "tony"
 mylist.append("stark")
 mylist.insert(2, "zebra")
 print(mylist)
+
+# tuples
+
+mytuple = ("sid", "dan", "mozart")
+
+# set
+
+myset = {"hi", "hello", "bye"}
+
+# dictionary
+
+mydictionary = {
+    "name": "siddhant",
+    "age": 12,
+    "number": 7878777777
+}
